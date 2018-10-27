@@ -1,9 +1,9 @@
 {
   "name": "SlintsVSCodeSnippets",
   "description": "VSCode snippets used by the Slints team",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "Slints VSCode Snippets",
-  "publisher": "carlosstrand",
+  "publisher": "slints",
   "icon": "images/slints-logo.png",
   "galleryBanner": {
     "theme": "light"
