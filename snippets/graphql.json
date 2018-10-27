@@ -1,0 +1,11 @@
+{
+	"graphqlResolver": {
+		"prefix": "gqlr",
+		"body": [
+			"export default async (${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}}, args, ctx) => {",
+			"\t$0",
+			"};",
+		],
+		"description": "Creates a GraphQL Resolver"
+	}
+}

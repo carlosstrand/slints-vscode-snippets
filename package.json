@@ -1,0 +1,37 @@
+{
+  "name": "SlintsVSCodeSnippets",
+  "description": "VSCode snippets used by the Slints team",
+  "version": "0.1.0",
+  "displayName": "Slints VSCode Snippets",
+  "publisher": "carlosstrand",
+  "icon": "images/slints-logo.png",
+  "galleryBanner": {
+    "theme": "light"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosstrand/slints-vscode-snippets"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/react.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/react.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/graphql.json"
+      }
+    ]
+  }
+}
